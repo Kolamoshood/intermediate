@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Hostel_allocation extends Model
 {
     use HasFactory;
+    protected $fillable = [
+        'student_id',
+        'payment_id',
+        'status',
+    ];
 }

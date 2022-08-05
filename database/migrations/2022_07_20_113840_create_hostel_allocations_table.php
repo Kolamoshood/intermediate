@@ -15,6 +15,9 @@ class CreateHostelAllocationsTable extends Migration
     {
         Schema::create('hostel_allocations', function (Blueprint $table) {
             $table->id();
+            $table->string('student_id')->nullable();
+            $table->string('payment_id')->nullable();
+            $table->string('status')->nullable();
             $table->timestamps();
         });
     }

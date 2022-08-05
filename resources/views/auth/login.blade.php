@@ -23,7 +23,7 @@
 		<section class="user-area ptb-100">
 			<div class="container">
 			<div class="user-form-content max-width-600">
-				<form class="user-form">
+				<form class="user-form" method="POST" action="{{ route('login')}}">
 					<h3>Log in to your account</h3>
 
 					<div class="row">

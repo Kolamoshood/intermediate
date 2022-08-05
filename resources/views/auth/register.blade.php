@@ -23,7 +23,7 @@
 <section class="user-area ptb-100">
 			<div class="container">
 			<div class="user-form-content max-width-600">
-				<form class="user-form"method="POST" action="{{ route('register') }}">
+				<form class="user-form"method="POST" action="{{ route('register')}}">
                         @csrf
 					<h3>Create an account</h3>
 
